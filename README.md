@@ -1,24 +1,25 @@
-# Nombre del Proyecto
+# Plataforma de gestión de incidencias y pedidos
 
-Una breve descripción de lo que hace tu proyecto y cuál es su propósito.
+Este proyecto corresponde a la **parte back-end** de una plataforma web para empresas de servicio técnico, que permite gestionar incidencias de clientes, pedidos de material y el seguimiento de intervenciones de los técnicos.
 
-## Tabla de Contenidos
+## Roles y Funcionalidades
 
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Características](#características)
-- [Tecnologías](#tecnologías)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+- **Clientes**: Reportan incidencias técnicas y realizan pedidos de material (como toner o piezas).  
+- **Técnicos**: Gestionan las incidencias asignadas a su zona, registran tiempo de intervención y dejan comentarios sobre el trabajo realizado.  
+- **Administración**: Supervisa los pedidos y puede reasignar clientes a diferentes técnicos.
 
-## Instalación
+## Tecnologías utilizadas
 
-Instrucciones paso a paso para instalar y configurar tu proyecto.  
-Por ejemplo:
+- **Lenguaje / Backend**: Java Spring Boot
+- **Base de datos**: MySQL  
+- **Autenticación**: JWT  
 
-```bash
-git clone https://github.com/usuario/proyecto.git
-cd proyecto
-npm install
+## Descripción del proyecto
+
+La plataforma permite un flujo completo de gestión de incidencias y pedidos: desde la creación de un aviso por parte del cliente, hasta su resolución y registro por parte del técnico, incluyendo el control de materiales pedidos y la administración de la asignación de clientes a técnicos.  
+
+Este proyecto muestra capacidad de diseñar un **sistema backend completo**, gestionar **roles de usuario** y organizar **procesos de negocio** en una aplicación web.
+
+
+
 
